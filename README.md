@@ -21,3 +21,14 @@ nakon pokretanja setup_encrypt.sh trebamo u .git/config imati sadrzaj kao ovaj:
 	[diff "encrypt"]
 		textconv = gitcrypt diff
 
+
+
+Hocu da kriptujem samo .secure fajlove
+
+cat .git/info/attributes
+
+
+	*.secure filter=encrypt diff=encrypt
+	[merge]
+	    renormalize=true
+
