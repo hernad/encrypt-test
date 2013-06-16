@@ -1,10 +1,15 @@
 gitcrypt repozitorij
 ========================================
 
+
 Kreiranje
 ----------
 
-nakon pokretanja setup_encrypt.sh trebamo u .git/config imati sadrzaj kao ovaj:
+Pokrenuti:
+
+       setup_encript.sh
+
+Nakon pokretanja `setup_encrypt.sh` trebamo u .git/config imati sadrzaj kao ovaj:
 
 	[core]
 		repositoryformatversion = 0
